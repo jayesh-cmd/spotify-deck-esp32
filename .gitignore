@@ -1,0 +1,15 @@
+# PlatformIO build artifacts
+.pio/
+.vscode/
+
+# Spotify tokens & cache
+.cache_deck/
+.cache
+config.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
