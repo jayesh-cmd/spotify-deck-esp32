@@ -1,26 +1,26 @@
-#  Minimal Media Deck (YouTube, Apple Music & Spotify)
-### Powered by ESP32 & ST7735 160×128 SPI TFT
+# Minimal Media Deck (YouTube, Apple Music & Spotify)
+### Powered by ESP32 & ST7735 160x128 SPI TFT
 
 A sleek, distraction-free desktop media player companion designed to look like the **Apple / iOS Lock Screen Now Playing widget**.
 
 ---
 
-## ✨ Supported Players
+## Supported Players
 
-- **📺 YouTube & YouTube Music in Browser (Chrome & Safari)**:
+- **YouTube & YouTube Music in Browser (Chrome & Safari)**:
   - Detects active YouTube video/song tabs automatically.
-  - Automatically fetches the video's official thumbnail, center-crops to square, and streams to your screen in RGB565!
+  - Automatically fetches the video's official thumbnail, center-crops to square, and streams to your screen in RGB565.
   - Displays video title and artist cleanly.
-- ** Apple Music**:
-  - Native macOS `Music.app` zero-config integration with library artwork.
-- **🎵 Spotify**:
+- **Apple Music**:
+  - Native macOS Music.app zero-config integration with library artwork.
+- **Spotify**:
   - Supports Spotify Desktop and Spotify Web API (phone, browser, speakers).
-- **🎮 Minimal Demo Mode**:
+- **Minimal Demo Mode**:
   - Instant offline demo with sample tracks.
 
 ---
 
-## 🛠️ Hardware Wiring (ST7735 160×128 SPI TFT)
+## Hardware Wiring (ST7735 160x128 SPI TFT)
 
 | Display Pin | ESP32 GPIO | Description |
 | :--- | :--- | :--- |
@@ -35,18 +35,18 @@ A sleek, distraction-free desktop media player companion designed to look like t
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Start the Companion Service
 ```bash
 python3 spotify_deck.py
 ```
-It will automatically connect to your ESP32 on `/dev/cu.usbserial-10` and start monitoring your open YouTube tabs!
+It will automatically connect to your ESP32 on `/dev/cu.usbserial-10` and start monitoring your open YouTube tabs.
 
 ### 2. (Recommended) Enable Exact YouTube Timeline & Button Control
 To allow the script to read the exact video seconds (`0:06 / -3:22`) and pause/resume YouTube with your ESP32 **BOOT button**:
-- In **Google Chrome**: from the top menu, click **View → Developer → Allow JavaScript from Apple Events** (one-time setup).
-- In **Safari**: from the top menu, click **Develop → Allow JavaScript from Apple Events**.
+- In **Google Chrome**: from the top menu, click **View > Developer > Allow JavaScript from Apple Events** (one-time setup).
+- In **Safari**: from the top menu, click **Develop > Allow JavaScript from Apple Events**.
 
 ### 3. Switch Players Anytime
 - Prioritize YouTube:
