@@ -1,0 +1,9 @@
+{
+  "spotify_client_id": "YOUR_SPOTIFY_CLIENT_ID",
+  "spotify_client_secret": "YOUR_SPOTIFY_CLIENT_SECRET",
+  "spotify_redirect_uri": "http://127.0.0.1:8888/callback",
+  "port": null,
+  "baud": 115200,
+  "player": "auto"
+}
+

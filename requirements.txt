@@ -1,0 +1,19 @@
+# Spotify Deck — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core (required on all platforms)
+pyserial>=3.5
+requests>=2.28
+Pillow>=9.0
+
+# Spotify Web API (optional — only needed for Web API mode)
+spotipy>=2.23
+
+# Windows control (optional — improves YouTube/Spotify control on Windows)
+# Uncomment if on Windows:
+# pywin32>=306
+# pyautogui>=0.9.54
+
+# Linux (optional — pyautogui can help with some window automation)
+# pyautogui>=0.9.54
+
