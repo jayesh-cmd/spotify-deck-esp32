@@ -1,4 +1,4 @@
-# 🎵 Spotify Deck
+# Spotify Deck
 
 A tiny physical Now Playing display — ESP32 + TFT screen styled like the iOS Lock Screen widget. Shows song title, artist, album art, and a live progress bar. Works with Spotify, YouTube, Apple Music, and a demo mode.
 
@@ -6,7 +6,7 @@ A tiny physical Now Playing display — ESP32 + TFT screen styled like the iOS L
 
 ---
 
-## 🧰 Hardware
+## Hardware
 
 | Part | Detail |
 |------|--------|
@@ -18,7 +18,7 @@ A tiny physical Now Playing display — ESP32 + TFT screen styled like the iOS L
 
 ---
 
-## 🔌 Wiring
+## Wiring
 
 | Display Pin | ESP32 GPIO |
 |-------------|-----------|
@@ -42,7 +42,7 @@ A tiny physical Now Playing display — ESP32 + TFT screen styled like the iOS L
 
 ---
 
-## 💻 Setup
+## Setup
 
 ### 1. Flash ESP32
 
@@ -78,7 +78,7 @@ python3 spotify_deck.py --port COM3            # Windows
 
 ---
 
-## 🎮 Usage
+## Usage
 
 | Command | What it does |
 |---------|-------------|
@@ -93,7 +93,7 @@ python3 spotify_deck.py --port COM3            # Windows
 
 ---
 
-## 🎵 Spotify Web API (Optional)
+## Spotify Web API (Optional)
 
 Only needed for controlling Spotify on **phone / browser / speakers**. Desktop app works automatically.
 
@@ -103,16 +103,16 @@ Only needed for controlling Spotify on **phone / browser / speakers**. Desktop a
 
 ---
 
-## 🌐 YouTube Exact Timeline (macOS only)
+## YouTube Exact Timeline (macOS only)
 
-In **Chrome:** View → Developer → ✅ Allow JavaScript from Apple Events  
-In **Safari:** Develop → ✅ Allow JavaScript from Apple Events
+In **Chrome:** View → Developer → Allow JavaScript from Apple Events  
+In **Safari:** Develop → Allow JavaScript from Apple Events
 
 Without this, playback time is estimated locally.
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 | Problem | Fix |
 |---------|-----|
